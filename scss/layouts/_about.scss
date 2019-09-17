@@ -1,0 +1,32 @@
+
+.social-container{
+     margin:5em 0 5em 0;
+     background:$lightColor;
+     width:60%;
+     height:5em;
+     padding:.2em;
+     border-radius:40px;
+     box-shadow: $shadow;
+     display: flex;
+     justify-content: space-evenly;
+     align-items:center;
+
+}
+
+.card-container{
+     align-items:center!important;
+}
+
+.download-link{
+     cursor:pointer;
+     margin-top:1em;
+     font-size:1rem;
+     display: flex;
+     flex-flow:column;
+     align-items: center;
+}
+
+.CV{
+     margin-top:1em;
+     margin-bottom:1em;
+}

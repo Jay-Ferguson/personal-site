@@ -1,0 +1,22 @@
+.email-container{
+     display:flex;
+     flex-flow: column;
+     align-items:center;
+     margin-top:2em;
+     justify-content: center;
+}
+
+.mail{
+     @extend .button-one;
+     margin-top:2em !important;
+     font-size:.8rem !important;
+     width:auto !important;
+     padding:1em;
+}
+
+.contact-intro{
+     text-align: center;
+}
+
+
+

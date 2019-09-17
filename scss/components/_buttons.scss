@@ -1,0 +1,72 @@
+@import'../utils/variables';
+
+.button-one{
+     @include center-items;
+     border-radius: $radius;
+     background-color: $lightColor;
+     width: 10em;
+     height: 3em;
+     color: $darkColor;
+     text-transform: uppercase;
+     font-size: 1rem;
+     box-shadow: 4px 15px 15px -2px rgba(0, 0, 0, 0.35);
+     border: 0;
+     margin: 0 auto;
+     transition: .5s;
+
+     &:hover {
+          transform: translateY(-3px);
+          transition: .3s;
+          transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+          background-color: white;
+
+     }
+
+     &:active {
+          transform: translateY(-1px);
+          transition: .3s;
+          transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+     }
+
+     &::after {
+          transform: scaleY(3px);
+     }
+     
+}
+
+
+.btn-link {
+     font-size:1rem!important;
+     width:4em;
+     height:auto;
+     color: $darkColor;
+     background-color: $lightColor;
+     width: 18em;
+     border-radius: 5px;
+     padding: 1em;
+     transition: .8s;
+
+     &:hover {
+          transition: .8s;
+          transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+          background-color: white;
+     }
+
+}
+
+.project-link {
+     @extend .button-one;
+     width:8em;
+}
+
+
+
+.see-more-btn {
+     background: $lightColor;
+     color: $darkColor;
+     width: 10em;
+     @include center-items;
+     height: 2em;
+     border-radius: 5px;
+     margin-bottom: 1em;
+}

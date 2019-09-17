@@ -1,0 +1,78 @@
+
+//general layout
+.project-container{
+     @include center-items-vert;
+     height:40em;
+     width:100%;
+     overflow: hidden;
+     margin-top:5em;
+     background-color:$darkColor;
+     clip-path: polygon(0 0, 100% 11%, 100% 86%, 0% 100%);
+
+
+}
+
+.card-container{
+     margin-top:22em;
+     display:flex;
+     flex-direction:column;
+     justify-items: center;
+     align-content: space-around;
+}
+.selfie-contain{
+     display: flex;
+     justify-content: center;
+}
+
+.btn-container{
+     margin-top:2em;
+     width:100%;
+     display: flex;
+     justify-content: center;
+}
+
+//home page demo projects.
+.prjct-container-home{
+    
+     display: flex;
+     flex-flow: column;
+     justify-content: space-evenly;
+     align-items:center;
+     width:80%;
+     margin:0 auto;
+     top:-100px;
+     position: relative;
+
+}
+
+
+
+
+
+.card-home-img{
+     width:100%;
+     min-height: 8em;
+     overflow:hidden;
+     
+     
+}
+
+.prjct-home-dscrpt{
+     font-size:.6rem;
+     padding:.6em;
+     text-align:center;
+     color:$lightColor;
+}
+
+
+h3{
+     color:$lightColor;
+     font-family: 'Raleway', sans-serif;
+     text-align: center;
+     margin: 0;
+     padding-top:.5em;
+}
+
+.spacer{
+     height:0em;
+}

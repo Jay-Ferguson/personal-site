@@ -1,0 +1,67 @@
+@import'../utils/variables';
+.intro-card{
+     width:80%;
+     background:$darkColor;
+     border-radius:10px;
+     margin-top:10em;
+     padding:1em;
+     margin:0 auto;
+     box-shadow: $shadow;
+     
+}
+
+
+//cards for project section on homepage
+
+.prjct-container-home .project-card-home .face .face1{
+transform:translateY(100px);
+
+}
+
+.project-card-home{
+     margin:2em;
+     width:25em;
+     
+     display: flex;
+     flex-flow:column;
+     align-items: center;
+     justify-content:flex-start;
+     box-shadow:$shadow;
+     background:rgba(22, 22, 22, 0.815);
+     border-radius:5px;
+     transition: all .2s ease-in-out;
+
+     &:hover{
+     transform: scale(1.5);
+     transition: all .2s ease-in-out;
+     transform:translateY(-.5em);
+     }
+
+}
+
+
+
+
+.content{
+     height:5em;
+     justify-content: space-evenly;
+
+}
+
+.see-more-btn{
+     margin-top:auto;
+}
+
+.btn-link{
+     text-align: center;
+     font-size:.5rem;
+}
+
+
+.content{
+     margin-bottom:1em;
+     display: flex;
+     flex-flow:column;
+     align-items: center;
+
+}

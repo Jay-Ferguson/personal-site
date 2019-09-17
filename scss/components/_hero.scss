@@ -1,0 +1,16 @@
+@import'../utils/variables';
+.hero{
+height:25em;
+width:100%;
+
+}
+
+#particles-js{
+height:25em;
+width:100%;
+background:#f3f3f3;  
+position: absolute;
+z-index:-4;
+clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 65%);
+-webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 65%);
+}
