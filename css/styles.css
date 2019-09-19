@@ -76,6 +76,13 @@ h3 {
   align-items: center;
   background: #272727; }
 
+.card-content-container {
+  height: 55em;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-flow: column; }
+
 .prjct-card-title {
   font-size: 1rem;
   margin: 1em;
@@ -176,7 +183,8 @@ h3 {
     background-color: white; }
 
 .project-link {
-  width: 8em; }
+  width: 8em;
+  margin-top: auto; }
 
 .see-more-btn {
   background: #f7f7f7f9;
@@ -472,6 +480,8 @@ html.is-animating .swup-transition-fade {
   .prjct-container-home {
     flex-flow: row;
     margin-top: 4em; }
+  .prjct-home-dscrpt {
+    font-size: .7rem; }
   .spacer {
     height: 25em; }
   .logo {
@@ -480,7 +490,7 @@ html.is-animating .swup-transition-fade {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr); }
   .prjct-card {
-    height: 45em; } }
+    height: 40em; } }
 
 @media screen and (min-width: 1800px) {
   .prjct-container-home {

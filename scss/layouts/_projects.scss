@@ -19,6 +19,14 @@
      background:$darkColor;
      
 }
+.card-content-container{
+     height: 55em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-flow: column;
+
+}
 
 .prjct-card-title{
      font-size:1rem;
