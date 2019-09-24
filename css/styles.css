@@ -8,7 +8,9 @@
   overflow: hidden;
   margin-top: 5em;
   background-color: #272727;
-  clip-path: polygon(0 0, 100% 11%, 100% 86%, 0% 100%); }
+  clip-path: polygon(0 0, 100% 11%, 100% 86%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 11%, 100% 86%, 0% 100%);
+  -o-clip-path: polygon(0 0, 100% 11%, 100% 86%, 0% 100%); }
 
 .card-container {
   margin-top: 22em;
@@ -495,4 +497,6 @@ html.is-animating .swup-transition-fade {
 @media screen and (min-width: 1800px) {
   .prjct-container-home {
     flex-flow: row;
-    margin-top: 20em; } }
+    margin-top: 20em; }
+  .prjct-card {
+    height: 50em; } }

@@ -8,7 +8,8 @@
      margin-top:5em;
      background-color:$darkColor;
      clip-path: polygon(0 0, 100% 11%, 100% 86%, 0% 100%);
-
+     -webkit-clip-path: polygon(0 0, 100% 11%, 100% 86%, 0% 100%);
+     -o-clip-path: polygon(0 0, 100% 11%, 100% 86%, 0% 100%);
 
 }
 
