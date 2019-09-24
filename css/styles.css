@@ -383,6 +383,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   width: 100%;
+  overflow-x: hidden;
   background: linear-gradient(-40deg, #464646, #d6d6d6);
   background-attachment: fixed;
   background-size: 200%;
