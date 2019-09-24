@@ -492,7 +492,7 @@ html.is-animating .swup-transition-fade {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr); }
   .prjct-card {
-    height: 40em; } }
+    height: 70em; } }
 
 @media screen and (min-width: 1800px) {
   .prjct-container-home {
