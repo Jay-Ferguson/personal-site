@@ -490,13 +490,9 @@ html.is-animating .swup-transition-fade {
     width: 15em; }
   .prjct-grid-container {
     grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr); }
-  .prjct-card {
-    height: 70em; } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (min-width: 1800px) {
   .prjct-container-home {
     flex-flow: row;
-    margin-top: 20em; }
-  .prjct-card {
-    height: 80em; } }
+    margin-top: 20em; } }
