@@ -1,5 +1,4 @@
 .prjct-grid-container {
-     width: 90%;
      display: grid;
      grid-template-columns: 100%;
      grid-template-rows: repeat(6, 1fr);
@@ -13,6 +12,7 @@
     border-radius:10px;
      box-shadow: $shadow;
      padding:2em;
+     margin:2em;
      display: flex;
      flex-flow:column;
      align-items:center;

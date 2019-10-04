@@ -29,6 +29,8 @@ body {
      
 }
 
+
+
 @keyframes bg-animation {
      0% {
           background-position: left;
@@ -168,8 +170,12 @@ a {
      .letter{
           font-size: 4rem;
      }
-
-
+.nav-toggle-container{
+     height: 7em;
+}
+.one, .two{
+     width:50px;
+}
      //homepage
      .prjct-container-home {
           flex-flow: row;
@@ -177,9 +183,12 @@ a {
      }
 
      .prjct-home-dscrpt{
-          font-size:.7rem;
+          font-size:.8rem;
      }
-
+     .project-card-home{
+          width:25em;
+          height:35em;
+     }
      .spacer {
           height: 25em;
      }
@@ -196,20 +205,24 @@ a {
      }
 
      .prjct-card{
-          height:38em;
+          height:45em;
+          width:50em;
+          padding:2em;
+          margin:0;
      }
      .project-img{
-          width:40em;
+          width:50em;
      }
      
-
+     .prjct-card-descript{
+          font-size:.9rem;
+     }
 }
 
 //hi resolution
 @media screen and (min-width:1800px) {
      .prjct-container-home {
           flex-flow: row;
-          margin-top:20em;
      } 
 
 }
