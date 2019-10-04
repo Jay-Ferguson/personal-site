@@ -19,8 +19,8 @@ body {
      overflow-x: hidden; 
      background: $gradient;
      background-attachment: fixed;
-     background-size: 200%;
-     animation: bg-animation 6s infinite alternate;
+     background-size: 400%;
+     animation: bg-animation 10s infinite alternate;
      font-family: 'Raleway', sans-serif;
      font-size: 10px;
      -webkit-font-smoothing: antialiased;
@@ -195,6 +195,12 @@ a {
           grid-template-columns: repeat(2, 1fr);
      }
 
+     .prjct-card{
+          height:38em;
+     }
+     .project-img{
+          width:40em;
+     }
      
 
 }
