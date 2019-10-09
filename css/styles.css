@@ -412,8 +412,7 @@ pre {
 
 #container {
   position: relative;
-  min-height: 100vh;
-  padding-bottom: 0; }
+  min-height: 100vh; }
 
 #footer {
   display: flex;
