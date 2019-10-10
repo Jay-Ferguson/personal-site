@@ -14,7 +14,9 @@
 </head>
 
 <body>
-
+          <script>
+                    document.body.className = 'fade';
+          </script>
 
      <div class="nav-toggle-container">
           <div class="toggle-btn">
@@ -55,7 +57,7 @@
                     <p class="intro-text contact-intro">
                               If you have a project in mind you’d like to work on,
                                or just interested in talking please feel free
-                              to contact me via email below.
+                              to contact me via email.
                     </p>
 
                     <div class="email-container">
@@ -70,7 +72,11 @@
           </div>
 
      </section>
-    
+     <script>
+               document.addEventListener("DOMContentLoaded", function(e){
+                    document.body.classList.remove('fade');
+               });
+          </script>
      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
      <script>
           particlesJS.load('particles-js', '../particles.json',

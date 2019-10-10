@@ -389,6 +389,8 @@ html {
   overflow-x: hidden; }
 
 body {
+  opacity: 1;
+  transition: 1.5s opacity;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -402,8 +404,11 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 10px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh; }
+  -moz-osx-font-smoothing: grayscale; }
+
+body.fade {
+  opacity: 0;
+  transition: none; }
 
 @keyframes bg-animation {
   0% {

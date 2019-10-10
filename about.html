@@ -5,6 +5,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
      <title>Jay F.</title>
      <link rel="stylesheet" href="/css/normalize.css">
      <link rel="stylesheet" href="/css/styles.css">
@@ -15,6 +16,9 @@
 </head>
 
 <body>
+          <script>
+                    document.body.className = 'fade';
+          </script>
           <div class="nav-toggle-container">
                <div class="toggle-btn">
                     <div class="one"></div>
@@ -54,14 +58,11 @@
                          </div>
                          <div class="underline"></div>
                          <p class="intro-text ">
-                              I am a Front end web developer and UX designer from Ottawa Canada. I am passionate about
-                              modern
-                              web design and bringing clean modern designs to life. I have knowledge of modern web
-                              technologies such as post CSS, SASS, Web pack, Javascript, Wordpress and more. With
-                              knowledge
-                              of graphic design principles, I incorporate these principles to the web. To see more of my projects or just to learn more about me, check out my
-                              social
-                              media pages with the through the links below!
+                              I am a front end web developer and UX designer from Ottawa Canada. I am passionate about
+                              creating modern design that incorporate accesable UX principles. I have knowledge of modern web
+                              technologies such as post CSS, SASS, Web pack, Javascript, Wordpress and more.
+                              I utilize these tools to build my projects on the web. To see more of my projects or just to learn more about me, check out my
+                              social media pages through the links below!
                          </p>
                          <div class="selfie-contain">
                          </div>
@@ -88,7 +89,11 @@
 
                </div>
           </section>
-     
+     <script>
+          document.addEventListener("DOMContentLoaded", function(e){
+               document.body.classList.remove('fade');
+          });
+     </script>
      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
      <script>
           particlesJS.load('particles-js', '../particles.json',

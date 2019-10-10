@@ -16,6 +16,9 @@
 </head>
 
 <body>
+          <script>
+                    document.body.className = 'fade';
+          </script>
           <div class="wrapper">
                <div class="container">
                     <div class="nav-toggle-container">
@@ -175,7 +178,11 @@
      </div>
      </div>
 
-
+     <script>
+               document.addEventListener("DOMContentLoaded", function(e) {
+                 document.body.className = '';
+               });
+     </script>
      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
      <script>
           particlesJS.load('particles-js', '../particles.json',

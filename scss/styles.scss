@@ -15,6 +15,8 @@ html {
 }
 
 body {
+     opacity:1;
+     transition:1.5s opacity;
      list-style: none;
      margin: 0;
      padding: 0;
@@ -29,12 +31,17 @@ body {
      font-size: 10px;
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
-     min-height: 100vh;
+     //min-height: 100vh;
      
 }
 
+body.fade{
+     opacity:0;
+     transition:none;
+}
 
 
+//animations
 @keyframes bg-animation {
      0% {
           background-position: left;
@@ -44,6 +51,7 @@ body {
           background-position: right;
      }
 }
+
 
 pre {
      display: none;

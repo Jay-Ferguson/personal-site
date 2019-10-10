@@ -14,7 +14,10 @@
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>       
+<body>    
+          <script>
+                    document.body.className = 'fade';
+          </script>   
                <div class="nav-toggle-container">
                     <div class="toggle-btn">
                     <div class="one"></div>
@@ -186,7 +189,13 @@
 
 
      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-     <script>
+
+               <script>
+                         document.addEventListener("DOMContentLoaded", function(e){
+                              document.body.classList.remove('fade');
+                         });
+                    </script>
+<script>
           particlesJS.load('particles-js', '../particles.json',
                function () {
                     console.log("particles.json loaded...");
