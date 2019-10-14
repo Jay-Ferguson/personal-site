@@ -3,23 +3,23 @@ var t1 = new TimelineMax({
 	paused: true
 });
 
-t1.to(".one", 0.4, {
+t1.to(".one", 0.2, {
 	y: 6,
 	rotation: 45,
 	ease: Expo.easeInOut
 });
-t1.to(".two", 0.4, {
+t1.to(".two", 0.2, {
 	y: -6,
 	rotation: -45,
 	ease: Expo.easeInOut,
-	delay: -0.4
+	delay: -0.2
 });
 
 t1.to(".menu", 1, {
 	top: "0%",
 	ease: Expo.easeInOut,
-	delay: -1
-});
+	delay: 0
+}, 0.01);
 
 t1.staggerFrom(".menu ul li", 1, {
 	x: -100,
@@ -31,9 +31,10 @@ t1.reverse();
 $(document).on("click", ".toggle-btn", function () {
 	t1.reversed(!t1.reversed());
 });
-$(document).on("click", "a", function () {
+/*$(document).on("click", "a", function () {
 	t1.reversed(!t1.reversed());
 });
+*/
 
 //intro text animation
 var textWrapper = document.querySelector('.m13');
@@ -48,74 +49,8 @@ anime.timeline({loop: false})
 	}).add({
 		targets: '.ml3',
 		opacity: 0,
-		duration: 1000,
+		duration: 900,
 		easing: "easeOutExpo",
 		delay: 1000
 	   });
 	   
-//page transitions
-let swupoptions = {
-	animationSelector: '[class*="swup-transition-"]',
-	cache:true,
-	pageClassPrefix:'',
-}
-//reloading other JS dependencies on page transition
-document.addEventListener("DOMContentLoaded", ()=>{
-	function init(){
-		if (document.querySelector('.menu')){
-			var t1 = new TimelineMax({
-				paused: true
-			});
-			
-			t1.to(".one", 0.4, {
-				y: 6,
-				rotation: 45,
-				ease: Expo.easeInOut
-			});
-			t1.to(".two", 0.4, {
-				y: -6,
-				rotation: -45,
-				ease: Expo.easeInOut,
-				delay: -0.4
-			});
-			
-			t1.to(".menu", 1, {
-				top: "0%",
-				ease: Expo.easeInOut,
-				delay: -1
-			});
-			
-			t1.staggerFrom(".menu ul li", 1, {
-				x: -100,
-				opacity: 0,
-				ease: Expo.easeOut
-			}, 0.05);
-			
-			t1.reverse();
-			$(document).on("click", ".toggle-btn", function () {
-				t1.reversed(!t1.reversed());
-			});
-			$(document).on("click", "a", function () {
-				t1.reversed(!t1.reversed());
-			});
-		}
-
-		if(document.querySelector('.aos')){
-			
-	}
-
-	
-
-	if (document.querySelector('#particle-js')){
-		particlesJS.load('particles-js', '../particles.json',
-		function () {
-			console.log("particles.json loaded...");
-		});
-	}
-
-	if (document.querySelector('.m16')){
-		textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-	}
-}
-
-});
