@@ -233,12 +233,16 @@ header {
    
          &:nth-child(1) {
            transform:translateY(10px) rotate(45deg);
-           background-color:red;
+           background-color:white;
+           width:40px;
+           height:2px;
          }
    
          &:nth-child(3) {
            transform:translateY(-6px) rotate(-45deg);
-           background-color:blue;
+           background-color:white;
+           width:40px;
+           height:2px;
          }
        }
      }

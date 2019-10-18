@@ -384,11 +384,15 @@ header {
 
 #toggle:checked + label.toggle-btn .bar:nth-child(1) {
   transform: translateY(10px) rotate(45deg);
-  background-color: red; }
+  background-color: white;
+  width: 40px;
+  height: 2px; }
 
 #toggle:checked + label.toggle-btn .bar:nth-child(3) {
   transform: translateY(-6px) rotate(-45deg);
-  background-color: blue; }
+  background-color: white;
+  width: 40px;
+  height: 2px; }
 
 .intro-card {
   width: 80%;
@@ -593,7 +597,7 @@ html.is-animating .swup-transition-fade {
   #particles-js {
     height: 35em; }
   .intro-text {
-    font-size: 1rem; }
+    font-size: 1.5rem; }
   .menu-links {
     font-size: 4rem; }
   .letter {
