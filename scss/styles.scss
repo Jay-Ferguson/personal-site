@@ -174,10 +174,15 @@ a {
      body{
           font-size:12px;
      }
+     #particles-js{
+          height:35em;
+     }
      .intro-text {
           font-size: 1rem;
      }
-
+     .menu-links{
+          font-size:4rem;
+     }
      .letter{
           font-size: 4rem;
      }
@@ -232,6 +237,8 @@ a {
 
 //hi resolution
 @media screen and (min-width:1800px) {
+
+     
      .prjct-container-home {
           flex-flow: row;
      } 

@@ -4,6 +4,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="Description" content="Jay Ferguson personal portfolio website">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Jay F.</title>
      <link rel="stylesheet" href="/css/normalize.css">
@@ -24,27 +25,51 @@
           <script>
                     document.body.className = 'fade';
           </script>   
-               <div class="nav-toggle-container">
-                    <div class="toggle-btn">
-                    <div class="one"></div>
-                    <div class="two"></div>
-               </div>
-          </div>
 
-          <div class="menu">
-               <div class="data">
-                    <ul>
-                         <li class="menu-title">Navigation</li>
-                         <li><a class="menu-items" href="/index.html">Home</a></li>
-                         <li><a class="menu-items" href="/about.html">About</a></li>
-                         <li><a class="menu-items" href="/projects.html">Projects</a></li>
-                         <li><a class="menu-items" href="/contact.html">Contact</a></li>
-                    </ul>
-               </div>
-          </div>
+         <!--
+          <div class="wrapper">
+               <div class="container">
+                    <div class="nav-toggle-container">
+                         <div class="toggle-btn">
+                              <div class="one"></div>
+                              <div class="two"></div>
+                         </div>
+                    </div>
+
+                    <div class="menu">
+                         <div class="data">
+                              <ul>
+                                   <li class="menu-title">Navigation</li>
+                                   <li><a class="menu-items" href="/index.html">Home</a></li>
+                                   <li><a class="menu-items" href="/about.html">About</a></li>
+                                   <li><a class="menu-items" href="/projects.html">Projects</a></li>
+                                   <li><a class="menu-items" href="/contact.html">Contact</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+-->
+
+                    <!--second header test-->
+                    <header>
+                         <input type='checkbox' id='toggle' style='display:none;' />
+                         <label class='toggle-btn toggle-btn__cross' for='toggle'>
+                           <div class="bar"></div>
+                           <div class="bar"></div>
+                           <div class="bar"></div>
+                         </label>
+                          <nav>
+                           <ul>
+                             <li><a href="/index.html"class="menu-links">Home</a></li>
+                             <li><a href="/about.html" class="menu-links">About</a></li>
+                             <li><a href="/projects.html" class="menu-links">Projects</a></li>
+                             <li><a href="/contact.html" class="menu-links">Contact</a></li>
+                           </ul>
+                         </nav>
+                       </header>
 
           <div class="logo-container">
-               <a href="/index.html"><img src="../assets/icon-png/j-logo.svg" class="logo"></a>
+               <a href="/index.html"><img src="../assets/icon-png/j-logo.svg" class="logo" alt="logo"></a>
           </div>
 
 
@@ -77,7 +102,7 @@
                          <div data-aos="fade-in">
                               <div class="prjct-card">
                                    <img src="./assets/project-jpg/js-to-do-list.jpg" class="project-img"
-                                        alt="landing-page">
+                                        alt="js-to-do-list-page">
                                    <div class="prjct-card-title">JS to do list </div>
                                    <div class="prjct-card-descript">To do list JavaScript application using ES6 features such as arrow functions and promises.</div>
                                    <a href="http://penguinottawa.ca/" target="_blank" class="btn-link project-link">View
@@ -90,7 +115,7 @@
                               <div class="prjct-card">
                                    
                                    <img src="./assets/project-jpg/js-click-and-drag.jpg" class="project-img"
-                                        alt="landing-page">
+                                        alt="click-and-drag-slider-page">
                                    <div class="prjct-card-title">Click and Drag Carousel</div>
                                    <div class="prjct-card-descript">JavaScript click and drag carousel that is styles to have an achordian like apearance.</div>
                                    <a href="http://penguinottawa.ca/" target="_blank" class="btn-link project-link">View
@@ -103,7 +128,7 @@
                          <div data-aos="fade-in">
                               <div class="prjct-card">
                                    <img src="./assets/project-jpg/js-canvas-draw.jpg" class="project-img"
-                                        alt="landing-page">
+                                        alt="javascript canvas draw page">
                                    <div class="prjct-card-title">JS Canvas project</div>
                                    <div class="prjct-card-descript">Javacript project using HTML canvas, enabling users to draw on the page while the stroke width and color changes. </div>
                                    <a href="http://penguinottawa.ca/" target="_blank" class="btn-link project-link">View
@@ -146,7 +171,7 @@
                          <div data-aos="fade-in">
                               <div class="prjct-card">
                                    <img src="./assets/project-jpg/agata-landing-page.jpg" class="project-img"
-                                        alt="landing-page">
+                                        alt="esthetician web site">
                                    <div class="prjct-card-title">Small Business Website</div>
                                    <div class="prjct-card-descript">Customized website design for small business using WIX editor.</div>
                                    <a href="https://www.estheticsbyagata.com/" target="_blank"
@@ -164,7 +189,7 @@
                          <div data-aos="fade-in">
                               <div class="prjct-card">
                                    <img src="./assets/project-jpg/nexter-landing-page.jpg" class="project-img"
-                                        alt="landing-page">
+                                        alt="modern layout page">
                                    <div class="prjct-card-title">Modern Layout Design</div>
                                    <div class="prjct-card-descript">Modern responsive landing page using CSS grid and SCSS features such as mixins, variables and functions.</div>
                                    <a href="https://www.estheticsbyagata.com/" target="_blank"
@@ -178,7 +203,7 @@
                          <div data-aos="fade-in">
                               <div class="prjct-card">
                                    <img src="./assets/project-jpg/js-text-to-speach.jpg" class="project-img"
-                                        alt="landing-page">
+                                        alt="javascript text to speech">
                                    <div class="prjct-card-title">JS text to speech</div>
                                    <div class="prjct-card-descript">Text to speech JavaScript web application. Utilizing the google
                                         languages API.</div>
@@ -207,9 +232,10 @@
                     console.log("particles.json loaded...");
                });
      </script>
-
+<!--
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
      <script>
           AOS.init();
