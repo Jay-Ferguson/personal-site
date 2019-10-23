@@ -51,7 +51,7 @@
   overflow: hidden; }
 
 .prjct-home-dscrpt {
-  font-size: .6rem;
+  font-size: .8rem;
   padding: .6em;
   text-align: center;
   color: #f7f7f7f9; }
@@ -109,7 +109,7 @@ h3 {
 .social-container {
   margin: 5em 0 5em 0;
   background: #f7f7f7f9;
-  width: 60%;
+  width: 80%;
   height: 5em;
   padding: .2em;
   border-radius: 40px;
@@ -131,6 +131,7 @@ h3 {
 
 .CV {
   margin-top: 1em;
+  width: 20%;
   margin-bottom: 1em; }
 
 .email-container {
@@ -198,11 +199,11 @@ h3 {
 .see-more-btn {
   background: #f7f7f7f9;
   color: #272727;
-  width: 10em;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2em;
+  height: 4em;
   border-radius: 5px;
   margin-bottom: 1em; }
 
@@ -301,6 +302,7 @@ header {
   header nav {
     background-color: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(10px) contrast(0.8);
+    -webkit-backdrop-filter: blur(10px) contrast(0.8);
     z-index: 21;
     position: fixed;
     top: 0;
@@ -408,7 +410,7 @@ header {
 
 .project-card-home {
   margin: 2em;
-  width: 25em;
+  width: 80%;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -610,7 +612,7 @@ html.is-animating .swup-transition-fade {
     flex-flow: row;
     margin-top: 4em; }
   .prjct-home-dscrpt {
-    font-size: .8rem; }
+    font-size: 0.8rem; }
   .project-card-home {
     width: 25em;
     height: 35em; }
