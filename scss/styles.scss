@@ -207,7 +207,9 @@ a {
      .logo {
           width: 15em;
      }
-
+     .see-more-btn {
+          position: absolute !important;
+          bottom: 25px; }
      //projects-page
 
      .prjct-grid-container {

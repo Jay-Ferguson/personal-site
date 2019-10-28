@@ -65,7 +65,9 @@
 .see-more-btn {
      background: $lightColor;
      color: $darkColor;
-     width: 50%;
+     width: 9rem;
+     position:initial !important;
+     margin-top:auto;
      @include center-items;
      height: 4em;
      border-radius: 5px;

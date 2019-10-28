@@ -199,7 +199,9 @@ h3 {
 .see-more-btn {
   background: #f7f7f7f9;
   color: #272727;
-  width: 50%;
+  width: 9rem;
+  position: initial !important;
+  margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -420,16 +422,19 @@ header {
   border-radius: 5px;
   transition: all .2s ease-in-out; }
   .project-card-home:hover {
-    transform: scale(1.5);
-    transition: all .2s ease-in-out;
-    transform: translateY(-0.5em); }
+    transition: all .2s ease-in-out; }
+
+.face {
+  display: flex;
+  flex-flow: column;
+  justify-content: center; }
 
 .content {
-  height: 5em;
-  justify-content: space-evenly; }
+  height: 10em; }
 
 .see-more-btn {
-  margin-top: auto; }
+  position: absolute;
+  bottom: 25px; }
 
 .btn-link {
   text-align: center;
@@ -620,6 +625,9 @@ html.is-animating .swup-transition-fade {
     height: 25em; }
   .logo {
     width: 15em; }
+  .see-more-btn {
+    position: absolute !important;
+    bottom: 25px; }
   .prjct-grid-container {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr); }
