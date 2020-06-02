@@ -21,7 +21,6 @@ transform:translateY(100px);
 .project-card-home{
      margin:2em;
      width:80%;
-     
      display: flex;
      flex-flow:column;
      align-items: center;
@@ -33,7 +32,7 @@ transform:translateY(100px);
 
      &:hover{
      transition: all .2s ease-in-out;
-     background-color:lighten($darkColor,20%);
+     background-color:lighten($darkColor,10%);
 
      }
 
@@ -43,12 +42,7 @@ transform:translateY(100px);
      display:flex;
      flex-flow:column;
      justify-content: center;
-
 }
-
-
-
-
 
 .see-more-btn{
      position:absolute;
@@ -66,5 +60,4 @@ transform:translateY(100px);
      display: flex;
      flex-flow:column;
      align-items: center;
-
 }
