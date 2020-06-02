@@ -1,3 +1,6 @@
+//import highway
+import Highway from '@dogstudio/highway';
+
 //nav animation
 var t1 = new TimelineMax({
 	paused: true
@@ -54,3 +57,4 @@ anime.timeline({loop: false})
 		delay: 1000
 	   });
 	   
+//highway js

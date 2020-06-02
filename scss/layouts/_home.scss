@@ -23,6 +23,9 @@
 
 .contact-text-index{
      text-decoration: underline;
+     &:hover{
+          color:$darkColor;
+     }
 }
 .selfie-contain{
      display: flex;

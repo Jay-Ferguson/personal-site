@@ -40,6 +40,10 @@
   text-decoration: underline;
 }
 
+.contact-text-index:hover {
+  color: #272727;
+}
+
 .selfie-contain {
   display: -webkit-box;
   display: -ms-flexbox;
